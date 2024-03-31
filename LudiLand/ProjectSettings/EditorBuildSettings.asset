@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
+    path: Assets/Scenes/Islands/Island01.unity
+    guid: fb28272cac3e16d44b78daab57bf1496
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island02.unity
+    guid: 2fd4ea067bc7c3c42b8843678ed37bd2
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island03.unity
+    guid: 3d9efa61041144a4cb24e9520045205d
+  - enabled: 1
+    path: Assets/Scenes/GameplayLand/Gameplay01.unity
     guid: 52122932df8ed924893ea34614d0a6ce
+  - enabled: 1
+    path: Assets/Scenes/GameplayLand/Gameplay02.unity
+    guid: 109e7ff14028f974c8374340aae6f09d
+  - enabled: 1
+    path: Assets/Scenes/GameplayLand/Gameplay03.unity
+    guid: 30431d5ce347c7c408890a71cb578302
   m_configObjects: {}
