@@ -24,7 +24,7 @@ public class Manager_emotion : MonoBehaviour
         
     }
 
-    public void hiphope()
+    public void Hiphope()
     {   
         if (id_Animation == 0)
         {
@@ -41,14 +41,14 @@ public class Manager_emotion : MonoBehaviour
         animator.SetInteger("idAnimation", id_Animation);
     }
 
-    public void joll()
+    public void Joll()
     {
         if (id_Animation == 0)
         {
             id_Animation = jolly;
             Debug.Log("jolly apertado");
         }
-        else if(id_Animation == jolly)
+        else if (id_Animation == jolly)
         {
             id_Animation = 0;
             Debug.Log("Jolly desapertado");
@@ -56,25 +56,25 @@ public class Manager_emotion : MonoBehaviour
         animator.SetInteger("idAnimation", id_Animation);
     }
 
-    public void sill()
+    public void Sill()
     {
         if (id_Animation == 0)
         {
             id_Animation = silly;
         }
-        else if(id_Animation == silly)
+        else if (id_Animation == silly)
         {
             id_Animation = 0;
         }
         animator.SetInteger("idAnimation", id_Animation);
     }
-    public void rumb()
+    public void Rumb()
     {
         if (id_Animation == 0)
         {
             id_Animation = rumba;
         }
-        else if(id_Animation == rumba)
+        else if (id_Animation == rumba)
         {
             id_Animation = 0; 
         }
